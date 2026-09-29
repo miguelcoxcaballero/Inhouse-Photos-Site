@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.inhousesoftware.photos",
+      "sha256_cert_fingerprints": ["12:13:95:B1:8A:AE:B6:4E:D2:B5:75:3E:AE:1D:8A:C4:AD:3D:26:16:D4:59:BF:CB:0E:21:7E:67:9A:1B:07:66"]
+    }
+  }
+]

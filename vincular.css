@@ -1,0 +1,18 @@
+:root{color-scheme:light;font-family:Inter,"Segoe UI",-apple-system,BlinkMacSystemFont,sans-serif;color:#26211c;background:#f6f3ee}
+*{box-sizing:border-box}
+body{margin:0;min-height:100svh}
+main{width:min(100%,1120px);min-height:100svh;margin:auto;padding:30px clamp(22px,5vw,64px);display:flex;flex-direction:column}
+.brand{display:inline-flex;align-items:center;gap:10px;width:max-content;color:#a94712;text-decoration:none;font-size:21px;letter-spacing:-.04em}
+.brand img{width:34px;height:34px}.brand strong{font-weight:650}
+.content{width:min(100%,640px);margin:auto 0;padding:56px 0 68px}
+.eyebrow{font-size:12px;letter-spacing:.16em;font-weight:750;color:#a94712}
+h1{margin:18px 0 18px;max-width:650px;font-size:clamp(42px,7.8vw,78px);line-height:1.03;letter-spacing:-.065em;font-weight:680}
+p{font-size:18px;line-height:1.6;color:#615a51;max-width:580px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:35px}
+.button{display:inline-flex;align-items:center;justify-content:space-between;gap:25px;min-height:50px;padding:12px 18px;border-radius:9px;text-decoration:none;font-weight:650;font-size:15px;transition:transform .17s ease,background-color .17s ease}
+.button:hover{transform:translateY(-2px)}.button:active{transform:translateY(0)}
+.primary{color:white;background:#a94712}.primary:hover{background:#8f390c}.secondary{color:#38312a;border:1px solid #cfc6ba;background:#fffcf8}
+.hint{margin-top:25px;font-size:14px;line-height:1.55}
+footer{padding:20px 0 8px;border-top:1px solid #dcd5cb;color:#777067;font-size:13px;line-height:1.5}
+@media(max-width:520px){main{padding-top:22px}.content{padding:64px 0 80px}.actions{display:grid}.button{width:100%}}
+@media(prefers-reduced-motion:reduce){.button{transition:none}}

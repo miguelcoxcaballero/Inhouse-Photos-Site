@@ -33,7 +33,7 @@
         render('login', 'Inicia sesión para ver el PC', 'Este estado pertenece al ordenador del servidor. Solo su administrador puede consultarlo.', 'Usa tu cuenta habitual; esta página no pide ni guarda contraseñas.');
         elements.signin.hidden = false;
       } else if (response.status === 404) {
-        render('unavailable', 'Actualiza el gestor de Windows', 'Esta instalación todavía no ofrece la detección USB en directo.', 'Instala la versión 1.2.15 o posterior y mantén el gestor abierto en el PC. La biblioteca seguirá en su sitio.');
+        render('unavailable', 'Actualiza el gestor de Windows', 'Esta instalación todavía no ofrece la detección USB en directo.', 'Instala la versión 1.2.16 o posterior y mantén el gestor abierto en el PC. La biblioteca seguirá en su sitio.');
         elements.upgrade.hidden = false;
       } else if (!response.ok) {
         throw new Error('manager_unavailable');
